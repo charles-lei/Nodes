@@ -1,0 +1,28 @@
+<view class='background3'>
+<view class='background4'>
+<view class='font'>区块链原理与开发实战-课程反馈</view>
+<view class='font1'>Hello,各位同学大家好~在本期课程中，大家的课堂表现积极性很高！希望大家在下面的课程中能够保持住，再接再厉！目前，运营组在思考如何更好地帮助到大家，为了给大家做更好的课程辅导，帮助大家实现自己的小目标，在这里我们需要征集同学们的意见反馈，麻烦大家如实填写</view>
+<view class='font2'>课程评价</view>
+<view>
+  <image class='star-image' bindtap='downLoadImage1' src='{{imageUrl1}}'></image>
+  <image class='star-image' bindtap='downLoadImage2' src='{{imageUrl2}}'></image>
+  <image class='star-image' bindtap='downLoadImage3' src='{{imageUrl3}}'></image>
+  <image class='star-image' bindtap='downLoadImage4' src='{{imageUrl4}}'></image>
+  <image class='star-image' bindtap='downLoadImage5' src='{{imageUrl5}}'></image>
+</view>
+
+<view class='font3'>意见反馈</view>
+<form bindsubmit="formSubmit" > 
+<view class='feedback-input'><input type='text' name='feedback'></input></view>
+<view><button class='button' form-type='submit'  style='opacity:0' >tijiao</button></view> 
+<view class='font4'>成功提交表单可获得Node积分！</view>
+<view>
+    <image class='submit' src='/pages/image/icon-upload.png'></image>
+</view>
+</form>
+</view>
+
+</view>
+
+
+

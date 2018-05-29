@@ -1,0 +1,78 @@
+.background3{
+  display: absolute;
+  position: fixed;
+  background-color:#EFEFF4;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+.background4{
+  position: fixed;
+  background-color: white;
+  height: 95%;
+  width: 95%;
+  z-index: 2;
+  top: 20rpx;
+  left: 22rpx;
+}
+.font{
+  width: 95%;
+  font-size: 35rpx;
+  color: #4592FD;
+  justify-content: center;
+  display: flex;
+  padding-top: 40rpx;
+  padding-bottom: 40rpx;
+  }
+.font1{
+  line-height:55rpx;
+  width: 95%;
+  font-size: 30rpx;
+  justify-content: center;
+  display: flex;
+  padding: 0 25rpx 40rpx 25rpx;
+}
+.font2{
+  width: 95%;
+  font-size: 30rpx;
+  padding: 0 0 8rpx 25rpx;
+}
+.font3{
+  width: 95%;
+  font-size: 30rpx;
+  padding: 0 0 0rpx 25rpx;
+}
+.feedback-input{
+  width: 100%;
+  height: 200rpx;
+  font-size: 30rpx;
+  border: 1.2rpx solid #EFEFF4;
+  
+}
+.star-image{
+width: 100rpx;
+height: 97rpx;
+padding: 0 0 30rpx 25rpx;
+}
+.font4{
+  font-size: 30rpx;
+  display: flex;
+  justify-content: center;
+  color: #FDB120;
+  padding: 20rpx 0 20rpx;
+}
+.submit{
+   height: 60rpx;
+   width: 200rpx;
+   padding: 0 250rpx
+}
+.button{
+  z-index: 10;
+   width: 240rpx;
+  height: 60rpx; 
+  position: fixed;
+  top:1010rpx;
+  right:280rpx;
+}
+
+

@@ -1,0 +1,5 @@
+<view >
+  <image class='backimage'  src='/pages/image/pic-qiandaobg.png'></image>
+  <image class='qiaodaoimage' bindtap='downLoadImage' src='{{imageUrl}}'></image>
+  <text class='font'>注：仅可在上课时间抽奖</text>
+</view>

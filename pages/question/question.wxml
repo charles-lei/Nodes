@@ -1,0 +1,14 @@
+<view class="background1">
+  <view class='border'>
+    <image class='image1' src='/pages/image/pic-qtumintro.png'></image>
+  </view>
+  <form bindsubmit="formSubmit" >
+    <view class='title'>
+    <view class="font"><input class='inputtext'  name='address' type='text' width='600rpx'  placeholder='请务必正确填写您的Qtum地址' /></view>
+    <view class='upload'>    
+          <image  class='img-upload' src='/pages/image/icon-upload.png'/>
+          <view><button class='button2'  form-type='submit' style='opacity:0' >tijiao</button></view> 
+    </view>
+</view>
+</form>  
+</view>

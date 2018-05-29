@@ -1,0 +1,48 @@
+.background1{
+  background-color: #EFEFF4;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  display: absolute;
+  z-index: 1;
+}
+.border{
+  width: 100%;
+  z-index: 2;
+  height: 50%;
+  top: 20rpx;
+  left: 57.5rpx;
+  position: fixed;
+}
+.title{
+  display:flex;
+  height:80rpx;
+  font-size:28rpx;
+  align-items:center;
+  padding-top: 550rpx;
+  position: fixed;
+  z-index: 3;
+}
+.font{
+  color: #8A8A8A;
+  padding-left: 150rpx;
+}
+.img-upload{
+   width:120rpx;
+   height:55rpx;
+   padding-right: 40rpx;
+}
+.image1{
+  height: 60%；
+}
+.inputtext{
+  width:400rpx;
+}
+.button2{
+  z-index: 10;
+  width: 120rpx;
+  height: 60rpx; 
+  position: fixed;
+  top:560rpx;
+  right:80rpx;
+}

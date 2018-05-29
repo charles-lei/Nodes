@@ -1,0 +1,32 @@
+.giftimage{
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+}
+.giftimage1{
+  width: 200rpx;
+  height: 80rpx;
+  top: 800rpx;
+  left: 280rpx;
+  z-index: 1;
+  position: absolute;
+}
+.button{
+  z-index: 2;
+  width: 200rpx;
+  height: 80rpx; 
+  position: fixed;
+  top: 800rpx;
+  left: 280rpx;
+  background-color: white;
+}
+.font{
+   z-index: 10;
+  font-size: 200rpx;
+  top:290rpx;
+  left:180rpx;
+  position: fixed;
+  color: #4592FD;
+  letter-spacing: 30rpx;
+}

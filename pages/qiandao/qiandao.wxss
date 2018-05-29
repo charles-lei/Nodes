@@ -1,0 +1,22 @@
+.backimage{
+  height: 100%;
+  width:  100%;
+  z-index: -1;
+  position: absolute;
+}
+.qiaodaoimage{
+  width: 300rpx;
+  height: 300rpx;
+  border-radius: 50%;
+  z-index: 1;
+  position: fixed;
+  left: 240rpx;
+  top:300rpx;
+}
+.font{
+  color: white;
+  font-size: 25rpx;
+  position: fixed;
+  left: 260rpx;
+  top:710rpx;
+}

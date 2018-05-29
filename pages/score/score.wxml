@@ -1,0 +1,60 @@
+<!--index.wxml-->
+<view class='background1'>
+  <view class='userrank'>
+   <text class='text1'>
+    排名
+   </text>
+   <text class='text2'>
+    
+   </text>
+  </view>
+</view>
+<view class='background2'>
+ <view>
+ 
+<view class='rank'>
+  <view class='rankitem' wx:for="{{ranks}}" wx:for-index="idx" wx:for-item="rank">
+   
+  
+   <view class='rankfont1'>
+      {{rank.rank1}}
+    </view>
+    <view class='imgview'>
+        <image class='functionimg' src='{{rank.pic_url}}'/>
+    </view>
+    <view class='rankfont2'>
+      {{rank.name}}
+    </view>
+  
+
+    <view class='rankscore'>
+      {{rank.scores}}Node
+    </view>
+  </view>
+  </view>
+
+  <view><image class='rankimage3' src='/pages/image/icon-1st.png'> </image></view>
+  <view><image class='rankimage2' src='/pages/image/icon-2nd.png'> </image></view>
+  <view><image class='rankimage1' src='/pages/image/icon-3rd.png'> </image></view>
+
+
+
+
+
+ 
+ </view>
+</view>
+<view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取积分信息 </button>
+    <block wx:else>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    </block>
+</view>
+ <view class='userscore'>
+   <text class='text1'>
+    积分
+   </text>
+   <text class='text2'>
+   </text>
+  </view>

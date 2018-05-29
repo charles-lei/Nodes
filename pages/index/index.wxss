@@ -1,0 +1,108 @@
+.swiper {
+  height: 300rpx;
+  width: 100%;
+}
+.swiper-image {
+  height:100%;
+  width: 100%;
+}
+.title{
+  display:flex;
+  height:80rpx;
+  justify-content:space-between;
+  font-size:24rpx;
+  align-items:center;
+  color:rgba(0,0,0,0.7);
+  border-bottom: 12rpx solid #EFEFF4
+}
+.img-question{
+   width:37rpx;
+   height:37rpx;
+   padding-left: 140rpx;
+}
+.font{
+  color: #8A8A8A;
+}
+.inputtext{
+  width: 350rpx;
+}
+.img-upload{
+   width:94rpx;
+   height:40rpx;
+   padding-right: 90rpx;
+}
+.function{
+    display:flex;
+    flex-wrap: wrap;
+    width:100%;
+}
+.functionitem{
+    width:50%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    font-size:28rpx;
+    box-sizing:border-box;
+    border-style:solid;
+    border-width: 1.2rpx 1.2px 0 1.2px; 
+    border-color: #e2e2e3;
+    padding-bottom: 23rpx;
+}
+.imgview{
+  width:190rpx;
+  height:190rpx;
+}
+.functionimg{
+   width:2.5rem;
+   height:2.5rem;
+   padding: 60rpx 50rpx;   
+}
+.functionfont{
+  font-size: 33rpx;
+  padding: 20rpx；
+}
+.service{
+  display: flex;
+  width:90%;
+  height:50px;
+  justify-content:flex-end; 
+  z-index: 10;
+}
+.service-img{
+   width:94rpx;
+   height:94rpx;
+   padding: 12rpx 12rpx;
+}
+.font3{
+   display: flex;
+   justify-content:flex-end;
+   font-size: 33rpx; 
+
+}
+.service1{
+  padding: 20rpx 100rpx;
+   z-index: 10;
+}
+.instruction{
+  display: flex;
+  font-size: 27rpx;
+  padding: 30rpx;
+  justify-content:center;
+}
+.font4{
+   color:blue;
+}
+.contactbutton{  
+  z-index: 5;
+
+  display:flex;
+}
+.button2{
+  z-index: 10;
+   width: 120rpx;
+  height: 60rpx; 
+  position: fixed;
+  top:310rpx;
+  right:90rpx;
+}

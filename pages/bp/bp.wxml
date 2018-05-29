@@ -1,0 +1,8 @@
+<view class='border2'>
+  <view>
+    <image class='giftimage' src='/pages/image/pic-giftbg.png'></image>
+    <image class='giftimage1' src='/pages/image/button-luckydraw.png'></image> 
+    <button class='button' bindtap="goto_logs" open-type='getUserInfo' style='opacity:0' hover-class='0' >tijiao</button>
+    <view class='font'>{{suiji}}</view>
+  </view>
+</view>

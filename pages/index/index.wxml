@@ -1,0 +1,73 @@
+<!--index.wxml-->   
+<!--顶端轮播界面--> 
+ <swiper class='swiper' indicator-dots='true' autoplay='true' interval='5000' duration='1000'>    
+      <block wx:for='{{movies}}' wx:for-index='index'>    
+        <swiper-item>    
+          <image src="{{item.url}}" class="swiper-image" mode="aspectFill"/>    
+        </swiper-item>    
+      </block>    
+  </swiper>
+<!--填写界面-->   
+<form bindsubmit="formSubmit" >      
+  <view class='title'>
+    <navigator url='/pages/question/question' >
+      <image class='img-question' src='/pages/image/icon-question.png'/>
+    </navigator>
+    <view class="font">
+      <input class='inputtext' name='address' type='text' width='600rpx' placeholder='请务必正确填写您的Qtum地址' />
+    </view>
+    <view class='upload'>
+          <image  class='img-upload' src='/pages/image/icon-upload.png'/>
+    </view>
+    <view><button class='button2' bindtap="" form-type='submit' style='opacity:0' >tijiao</button></view> 
+  </view>
+</form>
+<!--功能界面--> 
+<view class='function'>
+  <view class='functionitem' wx:for="{{functions}}" wx:for-index="idx" wx:for-item="function">
+    <view class='imgview'>
+      <navigator url='{{function.url}}'>
+        <image class='functionimg' src='{{function.pic_url}}'/>
+      </navigator>
+    </view>
+    <view class='functionfont'>
+      <navigator url='{{function.url}}'>{{function.name}}</navigator>
+    </view>
+  </view>
+  
+</view>
+<!--客服--> 
+<view class='service'>
+  <image class='service-img' src='/pages/image/icon-service.png'/>
+</view>
+<view>
+  <contact-button class="contactbutton" type="default-light" size="12"  style="position:absolute;top:900rpx;left:600rpx;opacity:0"/>
+  <contact-button class="contactbutton" type="default-light" size="12"  style="position:absolute;top:920rpx;left:600rpx;opacity:0"/>
+  <contact-button class="contactbutton" type="default-light" size="12"  style="position:absolute;top:940rpx;left:600rpx;opacity:0"/>
+  <contact-button class="contactbutton" type="default-light" size="12"  style="position:absolute;top:960rpx;left:600rpx;opacity:0"/>
+  <contact-button class="contactbutton" type="default-light" size="12"  style="position:absolute;top:980rpx;left:600rpx;opacity:0"/>
+  <contact-button class="contactbutton" type="default-light" size="12"  style="position:absolute;top:920rpx;left:580rpx;opacity:0"/>
+  <contact-button class="contactbutton" type="default-light" size="12"  style="position:absolute;top:940rpx;left:580rpx;opacity:0"/>
+  <contact-button class="contactbutton" type="default-light" size="12"  style="position:absolute;top:960rpx;left:580rpx;opacity:0"/>
+  <contact-button class="contactbutton" type="default-light" size="12"  style="position:absolute;top:980rpx;left:580rpx;opacity:0"/>
+  <contact-button class="contactbutton" type="default-light" size="12"  style="position:absolute;top:940rpx;left:560rpx;opacity:0"/>
+  <contact-button class="contactbutton" type="default-light" size="12"  style="position:absolute;top:920rpx;left:620rpx;opacity:0"/>
+  <contact-button class="contactbutton" type="default-light" size="12"  style="position:absolute;top:940rpx;left:620rpx;opacity:0"/>
+  <contact-button class="contactbutton" type="default-light" size="12"  style="position:absolute;top:960rpx;left:620rpx;opacity:0"/>
+  <contact-button class="contactbutton" type="default-light" size="12"  style="position:absolute;top:980rpx;left:620rpx;opacity:0"/>
+  <contact-button class="contactbutton" type="default-light" size="12"  style="position:absolute;top:940rpx;left:640rpx;opacity:0"/>
+  <contact-button class="contactbutton" type="default-black" size="12"  style="position:absolute;top:1030rpx;left:580rpx;opacity:0"/>
+  <contact-button class="contactbutton" type="default-black" size="12"  style="position:absolute;top:1030rpx;left:600rpx;opacity:0"/>
+  <contact-button class="contactbutton" type="default-black" size="12"  style="position:absolute;top:1030rpx;left:620rpx;opacity:0"/>
+</view>
+<view class='service1'>
+  <view class='font3'>客服</view>
+</view>
+<!--使用说明-->
+<view class='instruction'>
+  点击<view class='font4'><navigator url='#'>《使用说明》</navigator></view>查看NODE积分的说明
+</view>
+<view class="button-group {{isIphoneX ?'fix-iphonex-button':''}}"></view>
+<view class=''></view>
+
+ 

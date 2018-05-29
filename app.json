@@ -1,0 +1,17 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/question/question",
+    "pages/bp/bp",
+    "pages/feedback/feedback",
+    "pages/score/score",
+    "pages/qiandao/qiandao"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#22292C",
+    "navigationBarTitleText": "NODE",
+    "navigationBarTextStyle":"white"  
+    }
+}
